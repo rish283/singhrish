@@ -33,11 +33,11 @@ MathJax.Hub.Queue(function() {
 </figure>
 
 <details>
-  <summary> Abstract and Goal <\summary>
+  <summary> Abstract and Goal </summary>
 we propose to utilize the QIPF framework which provides a completely data-adaptive and multi-moment uncertainty representation of a signal and is consequently able to quantify the local dynamics at each point in the sample space in an unsupervised manner with high sensitivity and specificity with repect ot the overall signal PDF. Through the use of the QIPF, we utilize concepts of quantum physics (which provides a principled quantification of particle-particle dynamics in a physical system) to interpret data. Consequently we introduce a new energy based information theoretic formulation to accomplish pattern recognition tasks associated with time series data that quantifies sample-by-sample dynamics of the signal (important in online time series analysis, which is not achievable by conventional methods).  We specifically explore applications like anomaly detection and clustering.
-  <\details>
+  </details>
 
-<!-- <br /> -->
+<br />
 <!-- ## Goal:
 Our conjecture is that the best way to model non-stationary features of a time series signal is to use a dynamic embedding space that changes its local structure based on the evolution of the signal. To this end, we propose to utilize the QIPF uncertainty framework that, through its multiple uncertainty modes at each sample, is able to quantify local data dynamics relative to the signal's PDF in an unsupervised manner with high sensitivity and specificity. Through the use of the QIPF, we utilize concepts of quantum physics (which provides a principled quantification of particle-particle dynamics in a physical system) to interpret data. Consequently we introduce a new information theoretic framework to accomplish pattern recognition tasks associated with time series data that quantifies sample-by-sample dynamics of the signal (important in online time series analysi, which is not achievable by conventional methods. -->
 <!-- <br /> -->
