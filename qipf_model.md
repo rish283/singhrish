@@ -1,7 +1,7 @@
-<!-- ---
+-- ---
 layout: page
 title: "RKHS based Physical Interpretation of Model Uncertainty: The QIPF"
---- -->
+--- --
 
 <style TYPE="text/css">
 code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
@@ -32,8 +32,10 @@ MathJax.Hub.Queue(function() {
 <img style="float: center" src="/kk1.jpg">
 <figcaption align = "center"><b>Approach: Moments extracted from the local interaction of the model output with the RKHS potential field of the weights quantify the output uncertainty.</b></figcaption>
 </figure>
-
-We combine the expressive power of the Gaussian reproducing kernel Hilbert space (RKHS) and the high local resolution provided by quantum physics to create a moment decomposition framework for quantifying the predictive uncertainty of neural network models. The framework, called the quantum information potential field (QIPF), replaces the convention Bayesian notion of weight PDF with a physics based potential field representation of the model weights in a Gaussian RKHS. The QIPF moments quantify predictive uncertainty of a model by measuring the local interaction of a model prediction with its weight potential field. We show that the QIPF uncertainty measures are significantly more precise and better calibrated than Bayesian methods, especially in presence of distributional shifts in test-set, while being much cheaper to compute. 
+<details>
+    <summary> Abstract </summary>
+We propose a fast single-shot uncertainty quantification framework where, instead of working with the conventional Bayesian definition of model weight probability density function (PDF), we utilize functional operators (inspired by physics) over the projection of model weights in a reproducing kernel Hilbert space (RKHS) to quantify their uncertainty at each model output. The RKHS projection of model weights yields a potential field based interpretation of model weight PDF which consequently allows the definition of a functional operator, inspired by perturbation theory in physics, that performs a moment decomposition of the model weight PDF (the potential field) at a specific model output to quantify its uncertainty. We call this representation of the model weight PDF as the quantum information potential field (QIPF) of the weights. The extracted moments from this approach automatically decompose the weight PDF in the local neighborhood of the specified model output and determine, with great sensitivity, the local heterogeneity of the weight PDF around a given prediction. These moments therefore provide sharper estimates of predictive uncertainty than central stochastic moments of Bayesian methods. Experiments evaluating the error detection capability of different uncertainty quantification methods on covariate shifted test data show our approach to be more precise and better calibrated than baseline methods, while being faster to compute.
+</details>
 <br />
     
 ## Goal:
