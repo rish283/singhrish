@@ -28,7 +28,7 @@ MathJax.Hub.Queue(function() {
 <center> <h1> <ins>Time Series Data Analysis using Kernel Uncertainty Framework</ins> </h1> </center>
     
 <figure>
-<img style="float: center" src="qipf_tser.png">
+<img style="float: center" src="qipf_tser.png" width="60%" height="60%">
 <figcaption align = "center"><b>Decomposition of time series signal using QIPF uncertainty framework.</b></figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ A pseudo-code for QIPF implementation is as follows:
 <br />
   
 <figure>
-<img style="float: center" src="/tsr2.jpg" width="60%" height="60%">
+<img style="float: center" src="/tsr2.jpg">
 <figcaption align = "center"><b>Change point detection in time series: Last 1000 samples of drift datasets (top row), their corresponding QIPF mode standard deviations measured at each point (middle row) and corresponding the ROC curves (bottom row) for different methods measured in the range of 2000-3000 samples for both datasets. Black vertical lines (in the top row) mark the actual change points.</b></figcaption>
 </figure>
   
