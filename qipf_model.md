@@ -1,8 +1,8 @@
------
+<!-- -----
 layout: page
 title: "A Functional Operator for Model Uncertainty Quantification in the RKHS: The QIPF"
 -----
-
+ -->
 <style TYPE="text/css">
 code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
 </style>
@@ -22,7 +22,7 @@ MathJax.Hub.Queue(function() {
 </script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
-<center> <h1> <ins>RKHS based Physical Interpretation of Model Uncertainty: The QIPF</ins> </h1> </center>
+<center> <h1> <ins>A Functional Operator for Model Uncertainty Quantification in the RKHS: The QIPF</ins> </h1> </center>
 <!-- <center>
 <ins>RKHS based Physical Interpretation of Model Uncertainty: The QIPF</ins>
 </center>
