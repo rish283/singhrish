@@ -1,2 +1,3 @@
-# Rishabh Singh
-Google site content
+---
+permalink: /index.html
+---
