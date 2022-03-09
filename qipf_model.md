@@ -67,7 +67,7 @@ $$H_0(y^*) = E_\mathbf{w}(y^*) + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}(y^*
 $$\mathbf{3}$$. The final step is the moment decomposition of the PDF gradient flow (i.e. $$\nabla_y^2\psi_\mathbf{w}(y^*) = \psi_\mathbf{w}^0(y^*) + \lambda\psi_\mathbf{w}^1(y^*) + \lambda^2\psi_\mathbf{w}^2(y^*) + ...$$) for high resolution information extraction of heterogeneity around $$y^*$$ (which quantifies uncertainty). This is achieved via solution of $$H_0$$ (in step 2) in terms of its intrinsic moments as follows:
 <br />
 <br />
-$$H_0^k(y^*) = E_\mathbf{w}^k(y^*) + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k(y^*)}{\psi_\mathbf{w}^k(y^*)}$$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Visit [paper 1](https://arxiv.org/abs/2109.10888) and [paper 2](https://arxiv.org/abs/2001.11495) for derivation and more details!)
+$$H_0^k(y^*) = E_\mathbf{w}^k(y^*) + (\sigma^2/2)\frac{\nabla_y^2\psi_\mathbf{w}^k(y^*)}{\psi_\mathbf{w}^k(y^*)}$$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Derivation using perturbation theory expalined in [paper 1](https://arxiv.org/abs/2109.10888).)
 <br />
 <br />
 Here, $k$ denotes moment index. 
