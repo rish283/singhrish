@@ -105,7 +105,7 @@ The time complexity of the QIPF framework is therefore approximately $$\mathbf{O
 </figure>
 
 ## Related Papers:
-Singh, R. and Principe, J.C., 2021. **A Functional Operator for Model Uncertainty Quantification in the RKHS: The QIPF**. (Under Review) [(Paper Link)](https://arxiv.org/abs/2109.10888)
+Singh, R. and Principe, J.C., 2021. **A Functional Operator for Model Uncertainty Quantification in the RKHS**. (Under Review) [(Paper Link)](https://arxiv.org/abs/2109.10888)
 <details>
 <summary> Abstract </summary>
 
