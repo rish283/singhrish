@@ -1,7 +1,7 @@
--- ---
+-----
 layout: page
-title: "RKHS based Physical Interpretation of Model Uncertainty: The QIPF"
---- --
+title: "A Functional Operator for Model Uncertainty Quantification in the RKHS: The QIPF"
+-----
 
 <style TYPE="text/css">
 code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
