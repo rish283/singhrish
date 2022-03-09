@@ -28,20 +28,20 @@ MathJax.Hub.Queue(function() {
 <center> <h1> <ins>Time Series Data Analysis using Kernel Uncertainty Framework</ins> </h1> </center>
     
 <figure>
-<img style="float: center" src="/frmm.jpg">
+<img style="float: center" src="qipf_tser.png">
 <figcaption align = "center"><b>Decomposition of time series signal using QIPF uncertainty framework.</b></figcaption>
 </figure>
- 
-In this work, we utilize the QIPF, an RKHS based uncertainty decomposition framework, to obtain a physical viewpoint of time series signal dynamics. More concretely, we leverage the QIPF as a dynamic potential field (embedding space) that automatically and sensitively adapts its local structure according to data, for the analysis of time series signals. We consequently arrive at an energy-based formulation of the time series signal that is now represented in terms of multiple moments of uncertainty at each data sample. Preliminary experiments show that QIPF features of time series data can be very useful for applications like anomaly detection and clustering.
 
-<br />
-<!-- <br /> -->
-<!-- <br /> -->
-<!-- <br /> -->
+<details>
+  <summary> Abstract and Goal <\summary>
+we propose to utilize the QIPF framework which provides a completely data-adaptive and multi-moment uncertainty representation of a signal and is consequently able to quantify the local dynamics at each point in the sample space in an unsupervised manner with high sensitivity and specificity with repect ot the overall signal PDF. Through the use of the QIPF, we utilize concepts of quantum physics (which provides a principled quantification of particle-particle dynamics in a physical system) to interpret data. Consequently we introduce a new energy based information theoretic formulation to accomplish pattern recognition tasks associated with time series data that quantifies sample-by-sample dynamics of the signal (important in online time series analysis, which is not achievable by conventional methods).  We specifically explore applications like anomaly detection and clustering.
+  <\details>
 
-## Goal:
-Our conjecture is that the best way to model non-stationary features of a time series signal is to use a dynamic embedding space that changes its local structure based on the evolution of the signal. To this end, we propose to utilize the QIPF uncertainty framework that, through its multiple uncertainty modes at each sample, is able to quantify local data dynamics relative to the signal's PDF in an unsupervised manner with high sensitivity and specificity. Through the use of the QIPF, we utilize concepts of quantum physics (which provides a principled quantification of particle-particle dynamics in a physical system) to interpret data. Consequently we introduce a new information theoretic framework to accomplish pattern recognition tasks associated with time series data that quantifies sample-by-sample dynamics of the signal (important in online time series analysi, which is not achievable by conventional methods.
-<br />
+<!-- <br /> -->
+<!-- ## Goal:
+Our conjecture is that the best way to model non-stationary features of a time series signal is to use a dynamic embedding space that changes its local structure based on the evolution of the signal. To this end, we propose to utilize the QIPF uncertainty framework that, through its multiple uncertainty modes at each sample, is able to quantify local data dynamics relative to the signal's PDF in an unsupervised manner with high sensitivity and specificity. Through the use of the QIPF, we utilize concepts of quantum physics (which provides a principled quantification of particle-particle dynamics in a physical system) to interpret data. Consequently we introduce a new information theoretic framework to accomplish pattern recognition tasks associated with time series data that quantifies sample-by-sample dynamics of the signal (important in online time series analysi, which is not achievable by conventional methods. -->
+<!-- <br /> -->
+  
 <!-- <br />
 The problem is further made challenging by covariate shift of the test-set so that underlying distribution of input test data changes from $p(x|\lambda)$ during training to $p(x^*|\gamma)$ during testing (where $\lambda$ and $\gamma$ are parameters of the underlying distributions), while the target conditional distribution remains the same, i.e. $$p(y|x) = p(y^*|x^*)$$. -->
 ## Approach:
@@ -98,7 +98,7 @@ A pseudo-code for QIPF implementation is as follows:
 <br />
   
 <figure>
-<img style="float: center" src="/tsr2.jpg">
+<img style="float: center" src="/tsr2.jpg" width="60%" height="60%">
 <figcaption align = "center"><b>Change point detection in time series: Last 1000 samples of drift datasets (top row), their corresponding QIPF mode standard deviations measured at each point (middle row) and corresponding the ROC curves (bottom row) for different methods measured in the range of 2000-3000 samples for both datasets. Black vertical lines (in the top row) mark the actual change points.</b></figcaption>
 </figure>
   
